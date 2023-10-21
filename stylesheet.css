@@ -1,0 +1,167 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    border-top: 2px solid black;
+    color: rgb(225, 86, 56);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+    padding: 40px;
+    text-align: center;
+}
+
+header img {
+    margin-top: 20px;
+    width: 100%;
+}
+
+nav {
+    background-color: white;
+    border-bottom: 2px solid black;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 20px;
+    position: fixed;
+    right: 0;
+    text-align: center;
+    top:0;
+    width: 100%;
+    z-index: 100;
+}
+
+nav div a {
+    border: 1px solid white;
+    border-radius: 40px 40px 40px 40px;
+    color: rgb(225, 86, 56);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+nav div a:hover {
+    background-color: rgb(225, 86, 56);
+    border: 1px solid black;
+    color: white;
+}
+
+a.active {
+    border: 1px solid rgb(225, 86, 56);
+    color: rgb(225, 86, 56);
+}
+
+main {
+    background-color: rgb(225, 86, 56);
+    margin: 0;
+    padding: 22px;
+}
+
+main section h1 {
+    background-color: white;
+    border-radius: 40px 40px 40px 40px;
+    box-shadow: 2px 2px black;
+    color: rgb(225, 86, 56);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    letter-spacing: 2px;
+    margin: 40px auto 20px auto;
+    padding: 20px;
+    text-align: center;
+    word-spacing: 6px;
+    width: 50%;
+}
+
+main section h2 {
+    background-color: white;
+    border-radius: 40px 40px 40px 40px;
+    color: rgb(225, 86, 56);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin: 0 auto 40px auto;
+    padding: 10px;
+    text-align: center;
+    width: 30%;
+}
+
+#grille-accueil {
+    display: grid;
+    grid-template-columns: auto;
+    text-align: center;
+}
+
+#grille-accueil a {
+    margin: 0 auto 0 auto;
+    position: relative;
+    text-decoration: none;
+    text-align: center;
+}
+
+#grille-accueil a span {
+    background-color: rgb(225, 86, 56);
+    border: 2px solid white;
+    border-radius: 40px 40px 40px 40px;
+    color: white;
+    display: none;
+    float: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 4px;
+    left: 50%;
+    padding: 20px;
+    position: absolute;
+    text-transform: uppercase;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#grille-accueil a img {
+    border: 18px solid white;
+    border-radius: 50% 50%;
+    margin-top: 60px;
+}
+
+#grille-accueil a:hover span {
+    display: inline-block;
+}
+
+#grille-accueil a:hover img {
+    border: 2px solid white;
+    border-radius: 50% 50%;
+    padding: 16px;
+}
+
+#grille-page-artiste { 
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: auto;
+    text-align: center;
+    width: 80%;
+}
+
+#grille-page-artiste a {
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 30px 30px 30px 30px;
+    color: rgb(225, 86, 56);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 40px;
+    padding: 60px;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    width: 200px;
+}
+
+#grille-page-artiste a:hover {
+    background-color: rgb(225, 86, 56);
+    box-shadow: 4px 6px black;
+    color: white;
+}
